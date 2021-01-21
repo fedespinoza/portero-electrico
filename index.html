@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Timbre Portero | Federico Espinoza</title>
+</head>
+<body>
+    <div class="container">   
+        <div class="row titular">
+            <div class="col-12">
+                <h1>Portero Eléctrico</h1>
+            </div>
+        </div>
+        <div class="row portero">
+            <div class="col-12 borde-pantalla">
+                <div class="row">     
+                    <div class="col-6 pantalla-piso">
+                        <div class="bg-piso">
+                            <p>Piso</p>
+                            <p id="piso"></p>
+                        </div>
+                    </div>
+                    <div class="col-6 pantalla-dpto">
+                        <div class="bg-dpto">
+                            <p>Departamento</p>
+                            <p id="dpto"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-4 disp offset-4 pt-3">
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+            </div>
+            <div class="col-4 disp offset-4 ">
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+            </div>
+            <div class="col-4 disp offset-4 ">
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+                <span class="parlante"></span>
+            </div> -->
+
+            <div class="col-12 disp pt-3">
+                <button id="btn1" class="cuadrado" onclick="presionarBoton(document.getElementById('btn1'))">1</button>
+                <button id="btn2" class="cuadrado" onclick="presionarBoton(document.getElementById('btn2'))">2</button>
+                <button id="btn3" class="cuadrado" onclick="presionarBoton(document.getElementById('btn3'))">3</button>
+            </div>
+
+            <div class="col-12 disp">
+                <button id="btn4" class="cuadrado" onclick="presionarBoton(document.getElementById('btn4'))">4</button>
+                <button id="btn5" class="cuadrado" onclick="presionarBoton(document.getElementById('btn5'))">5</button>
+                <button id="btn6" class="cuadrado" onclick="presionarBoton(document.getElementById('btn6'))">6</button>
+            </div>
+
+            <div class="col-12 disp">
+                <button id="btn7" class="cuadrado" onclick="presionarBoton(document.getElementById('btn7'))">7</button>
+                <button id="btn8" class="cuadrado" onclick="presionarBoton(document.getElementById('btn8'))">8</button>
+                <button id="btn9" class="cuadrado" onclick="presionarBoton(document.getElementById('btn9'))">9</button>
+            </div>
+
+            <div class="col-12 disp ">
+                <button id="call" class=" call alineado">CALL</button>
+                <button id="btn0" class="cuadrado" onclick="presionarBoton(document.getElementById('btn0'))">0</button>
+                <button id="clear" class="clear alineado">CLEAR</button>
+            </div>
+            <div class="row rowPantalla pt-2">
+                <div class="col-12">
+                    <p id="pantallaBot">Marque su piso</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

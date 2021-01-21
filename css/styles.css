@@ -1,0 +1,93 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.titular{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+div.row.portero{
+    border: 5px solid #000000;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.borde-pantalla{
+    margin: 0 auto;
+    border-bottom: 2px dashed black;
+}
+
+.bg-piso{
+    background-color: #292929;
+    height: 58px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg-dpto{
+    background-color: #292929;
+    height: 58px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pantalla-piso p{
+    width: 130px;
+    margin: 10px auto;
+    color: white;
+}
+
+.pantalla-dpto p{
+    width: 130px;
+    margin: 10px auto;
+    color: white;
+}
+
+p.piso{
+    width: 80px;
+    background-color: #00fd22;
+}
+
+button.cuadrado,
+button.alineado{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c7140075;
+    color: #fff;
+    margin: 15px;
+}
+
+button.cuadrado:hover,
+button.alineado:hover{
+    background-color: #fd0000;
+}
+
+button.clear{
+    padding: 5px 12px;
+}
+
+button.call{
+    letter-spacing: 1px;
+    padding: 5px 15px;
+}
+
+.rowPantalla{
+    margin: 0 auto;
+}
+
+#pantallaBot{
+    color: white;
+}
